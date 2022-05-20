@@ -1,5 +1,5 @@
-//Disable firefox sync (currently trying this out)
-//user_pref("identity.fxaccounts.enabled", false);
+//Disable firefox sync
+user_pref("identity.fxaccounts.enabled", false);
 
 //Disable more from Mozilla
 user_pref("browser.preferences.moreFromMozilla", false);
@@ -29,7 +29,7 @@ user_pref("reader.parse-on-load.enabled", false);
 //Disable javascript in PDF reader
 user_pref("pdfjs.enableScripting", false);
 
-//Set defaykt PDF zoom to 100%
+//Set default PDF zoom to 100%
 user_pref("pdfjs.defaultZoomValue", 100);
 
 //Disable geolocation
@@ -40,6 +40,3 @@ user_pref("ui.key.menuAccessKeyFocuses", false);
 
 //Enable fission/site Isolation
 user_pref("fission.autostart", true);
-
-//Enable WebRender 
-user_pref("gfx.webrender.all", true);
